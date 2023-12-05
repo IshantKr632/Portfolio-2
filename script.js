@@ -1,3 +1,10 @@
+
+
+function openMenu() {
+    const nav = document.querySelector('nav');
+    nav.classList.toggle('open');
+}
+
 const typed = new Typed('.text-decorated', {
     strings: ['Website Developing', 'Graphic Deisgning', 'UI/UX Designing'],
     typeSpeed: 100,
@@ -5,8 +12,3 @@ const typed = new Typed('.text-decorated', {
     backDelay: 1000,
     loop: true
 });
-
-function openMenu() {
-    const nav = document.querySelector('nav');
-    nav.classList.toggle('open');
-}
